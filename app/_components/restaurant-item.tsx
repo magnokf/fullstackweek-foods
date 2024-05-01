@@ -23,6 +23,7 @@ const RestaurantItem = ({ restaurant, className }: RestaurantItemProps) => {
           <Image
             src={restaurant.imageUrl}
             fill
+            sizes={"100%"} // Tamanho da imagem
             className="rounded-lg object-cover"
             alt={restaurant.name}
           />
